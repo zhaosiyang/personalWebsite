@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Siyang's page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="/css/main.css">
+    <link type="text/css" rel="stylesheet" href="/css/ihover.css">
+    <link type="text/css" rel="stylesheet" href="/css/hover.css">
+
+  </head>
+  <body>
+<!--******************************  put your code between ********************************-->
+    <div class="btn-group-vertical" role="group" id="projectNav">
+      <button type="button" class="btn btn-default hvr-bounce-to-right" id="btnStudyRoom">Tutor Management System</button>
+      <button type="button" class="btn btn-default hvr-bounce-to-right" id="btnTAhelper">TA-Helper Web Application</button>
+      <button type="button" class="btn btn-default hvr-bounce-to-right" id="btnTapTapBug">Tap Tap Bug</button>
+      <button type="button" class="btn btn-default hvr-bounce-to-right" id="btnjQuery">jQuery Study Notes</button>
+      <button type="button" class="btn btn-default hvr-bounce-to-right" id="btnVM">Research on Multi-Channel Payment System for Vending Machines</button>
+      <button type="button" class="btn btn-default hvr-bounce-to-right" id="btnMonopoly">Game of Monopoly</button>
+      <button type="button" class="btn btn-default hvr-bounce-to-right"  id="btnPersonalWebsite">My Personal Website</button>
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-default dropdown-toggle hvr-bounce-to-bottom" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Miscellaneous 
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="#" class="hvr-bounce-to-right" id="btnStopWatch">Stop Watch</a></li>
+          <li><a href="#" class="hvr-bounce-to-right" id="btnWebChat">WebChat</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="projectContentBlock" id="studyRoom">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <h3 class="textCentered"><a href="http://studyroom.zhaosiyang.com">Tutor Management System</a><small>Jan. 2016</small></h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h4>1. Intention</h4>
+            <ul>
+              <li>I have been tutoring quite a lot and found it's quite inconvenient to manage so many students through phone call or text message. So I made this website to allow students book my tutoring online and thus making my life easier.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h4>2. Functionality and Features</h4>
+            <ul>
+              <li>A website built on Google App Engine</li>
+              <li>Window size responsive, which means can be both used with laptop or mobile devices</li>
+              <li>
+                Account management allows students create their account and book tutoring with their personal account.
+              </li>
+              <li>Safe encrypted passwords and cookies make sure students account do not get hacked</li>
+              <li>Money topped up through back-end database manipulation</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h4>3. Functionalities to be added</h4>
+            <ul>
+              <li>Better student-end account management including: change password, reset password, cancel reservations and so on</li>
+              <li>Database transaction docs which tracks database changes and allow restoring database</li>
+              <li>Management GUI for the tutor(i.e me or any other tutor who want to use this app), including functions like create and adjust a class session, adjust students' reservations and so on</li>
+              <li>Forum for students' discussion</li>
+              <li>Students' feedback to the tutor</li>
+              <li> ... </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-8">
+            <h4>4. Technologies Involved</h4>
+            <p>HTML, CSS, Javascript, jQuery, Ajax, Database, Google App Engine, Bootstrap</p>
+          </div>
+          <div class="col-xs-4">
+            <a href="http://studyroom.zhaosiyang.com">
+              <button class="btn btn-primary btn-lg hvr-buzz">Check it out</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projectContentBlock" id="taHelper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <h3 class="textCentered"><a href="http://ta-helper.zhaosiyang.com">TA-Helper Web Application</a><small>Jan. 2016</small></h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h4>1. Intention</h4>
+            <ul>
+              <li>It can help teaching assistants to manage a lab session especially in which every student has a computer such a programming lab session</li>
+              <li>Make students fairly and easily queue for helps from TA and free them from constantly checking if a TA is available</li>
+              <li>
+                Save students' time by let TA first help students with short questions which can be solved in a couple of seconds. Basically, students with short questions have higher priority over students with questions taking longer time(such as debugging a program). In this way, it's efficient for the whole class.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h4>2. Functionality and Features</h4>
+            <ul>
+              <li>
+                Four Pages: 
+                <ul>
+                  <li>Student's Main Page: for student to choose a session</li>
+                  <li>Student's Queue Page: students make queue operation in this page</li>
+                  <li>TA's main page: for TA to choose a session to manage as well as create a new session</li>
+                  <li>TA's managing page: in a particular session, the TA can check the queue and remove students from queue when problems are solved</li>
+                </ul>
+              </li>
+              <li>Multiple sessions can work at the same time</li>
+              <li>TA set the session time and the sesion auto-vanish after the setted end time</li>
+              <li>Students can queue and dequeue themselves from students end. TA can also dequeue students from TA end. Those process are all <strong>real time</strong></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-8">
+            <h4>3. Technologies Involved</h4>
+            <p>HTML, CSS, Javascript, jQuery, Ajax, Database, Google App Engine</p>
+          </div>
+          <div class="col-xs-4">
+            <a href="http://ta-helper.zhaosiyang.com">
+              <button class="btn btn-primary btn-lg hvr-buzz">Check it out</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projectContentBlock" id="tapTapBug">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <h3 class="textCentered"><a href="http://do.zhaosiyang.com:8080/a2.html">Tap Tap Bug Game</a><small>Feb. 2016</small></h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h4>1. Functionality and Features</h4>
+            <ul>
+              <li>Static pages rendered by the server</li>
+              <li>Server side written in NodeJS</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-8">
+            <h4>2. Technologies Involved</h4>
+            <p>HTML, CSS, Javascript, Canvas, NodeJS</p>
+          </div>
+          <div class="col-xs-4">
+            <a href="http://do.zhaosiyang.com:8080/a2.html">
+              <button class="btn btn-primary btn-lg hvr-buzz">Check it out</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projectContentBlock" id="jQueryStudyNotes">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="textCentered"><a href="http://jquerypractice.zhaosiyang.com">jQuery Study Notes </a><small>Dec. 2015</small></h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>1. Functionalities and Features</h2>
+            <ul>
+              <li>19 jQuery practice with difficulty level from 1 star to 5 star labeled</li>
+              <li>Source code displayed</li>
+              <li>Some important notes displayed</li>
+              <li>Good for future reference</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h2>2. Where I learned jQuery?</h2>
+            <ul>
+              <li><p>It's an awesome website: <a href="https://www.thenewboston.com/videos.php?cat=32">Thenewboston</a></p></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-4 col-xs-offset-8">
+            <div class="col-xs-4">
+              <a href="http://jquerypractice.zhaosiyang.com">
+                <button class="btn btn-primary btn-lg hvr-buzz">Check it out</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projectContentBlock" id="vendingMachine">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="textCentered">Research on Multi-Channel Payment System for Vending Machines <small>Dec. 2014 - May. 2015</small></h2>
+          </div>
+        </div> 
+        <div class="row">
+          <div class="col-xs-12">
+            <h3>1. Intention</h3>
+              <ul>
+                <li>Traditional vending machines allows cash-only payment, which does not go with the fact that student card is widely used for payment on campus.</li>
+                <li>Try to combine the vending machines on campus and the student card and achieve the function of purchasing goods from vending machine with student card.</li>
+                <li>From the students' side, this project means more convenience.</li>
+                <li>From the vendors' side, this project may increase their selling</li>
+              </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h3>2. Functionality and Features</h3>
+              <ul>
+                <li>The project succeeded and managed to realize the payment with student card.</li>
+                <li>Single-chip powered serial communication between the vending machine and the POS machine which handles transactions of student cards.</li>
+              </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h3>3. Award</h3>
+            <ul>
+              <li>
+                Best Thesis/Design (Zhejiang University 2015) (top 10%)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projectContentBlock" id="monopoly">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="textCentered">Game of Monopoly <small>Feb. 2012 - Jun. 2012</small></h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <h3>Functionality and Features</h3>
+              <ul>
+                <li>A 4000-line well-functioned comprehensive individual project for C-based programming(using some C++ libraries)</li>
+                <li>GUI based interactive game using mouse and popular among classmates</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projectContentBlock" id="personalWebsite">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="textCentered">My Personal Website <small>Jan 2016</small></h1>
+          </div>
+        </div>
+        <div class="row" id="youAreRightOnThisWebsite">
+          <div class="col-xs-12">
+            <h2>You Are Right On This Website. <a href="http://zhaosiyang.com">Explore it!</a></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projectContentBlock" id="stopWatch">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="textCentered">Stop Watch<small>Dec. 2015</small></h1>
+          </div>
+        </div>
+        <!-- ** -->
+          <h4>Description:</h4>
+  <p>It's a fully functioning stop watch! Try it out!</p>
+  <hr>
+  <div class="row">
+    <div class="col-xs-12" style="text-align: center;">
+      <h1>
+        <div id = "prac14_main_display">
+          <span id="prac14_min">00</span>
+          <span>:</span>
+          <span id="prac14_sec">00</span>
+          <span>:</span>
+          <span id="prac14_msec">00</span>
+        </div>
+      </h1>   
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-xs-3 col-xs-offset-2">
+      <button class="btn btn-danger full_size_btn" id="prac14_btn1">
+        Lap
+      </button>
+    </div>
+    <div class="col-xs-3 col-xs-offset-2">
+      <button class="btn btn-info full_size_btn" id="prac14_btn2">
+        Start
+      </button>
+    </div>
+  </div>
+  <hr>
+  <span id="prac14_result"></span>
+        <!-- ** -->
+      </div>
+    </div>
+
+<div class="projectContentBlock" id="webChat">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12">
+            <h1 class="textCentered">Web Chat <small>Dec. 2015</small></h1>
+          </div>
+        </div>
+        <!-- ** -->
+          <div class="container-fluid">
+    <h4>Description:</h4>
+    <p>
+        This application allows multiple users to synchronouly chat online. To have a taste of the following demo, two (or more) users open the same page and try chatting!
+    </p>
+    <hr>
+    <div class="row">
+        <div class="col-xs-12">
+            <table class="table table-striped">
+                <tbody id="prac19_tbody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-xs-12">
+            <textarea name="contents" id="prac19_input" rows="3"></textarea>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-10">
+            <button class="btn btn-primary full_size_btn" id="prac19_enter">Enter</button>
+        </div>
+        <div class="col-xs-2">
+            <button class="btn btn-danger full_size_btn" id="prac19_clear">Clear</button>
+        </div>
+    </div>
+</div>
+        <!-- ** -->
+      </div>
+    </div>
+
+<div id="backButton">
+    <a href="/" class="hvr-float-shadow">
+      <button class="btn btn-info btn-lg">
+        <span class="glyphicon glyphicon-hand-left"></span>BACK
+      </button>
+    </a>
+  </div>
+<!--******************************  put your code between ********************************-->  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="/js/helper.js"></script>
+    <script type="text/javascript" src="/js/jquery-showpassword.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="/js/jquery-burn.js"></script>
+    <script src="/js/main.js"></script>
+    
+    
+
+  </body>
+</html>

@@ -1,0 +1,305 @@
+/*.thumbnail{
+	background: url("/img/codeBG.jpg");
+}*/
+body { 
+  background: url(/img/brickBG.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.roleLetter{
+    color: lightgrey;
+    -webkit-transition: color 0.5s;
+    -moz-transition:    color 0.5s;
+    -ms-transition:     color 0.5s;
+    -o-transition:      color 0.5s;
+    transition:         color 0.5s;
+}
+
+#roleLetter1:hover {
+    color: red;
+}
+#roleLetter2:hover {
+    color: blue;
+}
+#roleLetter3:hover {
+    color: green;
+}
+#roleLetter4:hover {
+    color: yellow;
+}
+#roleLetter5:hover {
+    color: purple;
+}
+#roleLetter6:hover {
+    color: black;
+}
+#roleLetter7:hover {
+    color: orange;
+}
+#roleLetter8:hover {
+    color: gray;
+}
+#roleLetter9:hover {
+    color: lightblue;
+}
+#roleLetter10:hover {
+    color: white;
+}
+#roleLetter11:hover {
+    color: cyan;
+}
+#roleLetter12:hover {
+    color: darkblue;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+#titleBlock{
+	font-size: 50px;
+	position: absolute;
+	left: 20%;
+	right: 20%;
+	top: 10%;
+	bottom: 65%;
+	color: yellow;
+}
+#role{
+	position: absolute;
+	width: 100%;
+	text-align: right;
+	color: lightgray;
+	font-size: 35px;
+}
+#centerBlock{
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	top: 40%;
+	bottom: 10%;
+}
+#footerBlock{
+	position: absolute;
+	left: 20%;
+	right: 20%;
+	bottom: 8%;
+}
+#imgBlock1{
+	position: absolute;
+	left: 4%;
+	right: 76%;
+	top: 10%;
+	bottom: 10%;
+}
+#imgBlock2{
+	position: absolute;
+	left: 28%;
+	right: 52%;
+	top: 10%;
+	bottom: 10%;
+}
+#imgBlock3{
+	position: absolute;
+	left: 52%;
+	right: 28%;
+	top: 10%;
+	bottom: 10%;
+}
+#imgBlock4{
+	position: absolute;
+	left: 76%;
+	right: 4%;
+	top: 10%;
+	bottom: 10%;
+}
+#centerBlock img{
+	width: 100%;
+	height: 100%;
+	margin: auto;
+    display: block;
+}
+.bigLetter{
+	font-size: 172px;
+	text-align: center;
+}
+.fourButton{
+	background-color: black;
+}
+#four_uni{
+	position: absolute;
+	top: 30%;
+}
+
+.UniContainer{
+	display: none;
+	color: yellow;
+	position: absolute;
+	top: 10%;
+	bottom: 10%;
+	left: 25%;
+	right: 0%;
+}
+
+.UniContainer h1{
+	display: none;
+}
+.UniContainer h2{
+	display: none;
+}
+.UniContainer h3{
+	display: none;
+}
+.UniContainer h4{
+	display: none;
+}
+.UniContainer p{
+	display: none;
+}
+
+#ZJU{
+	display: none;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/img/ZJU.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#UWA{
+	display: none;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/img/UWA.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#UCD{
+	display: none;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/img/UCD.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#UofT{
+	display: none;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/img/UofT.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.UniContainer p{
+	color: lightgray;
+}
+#backButton{
+	position: absolute;
+	bottom: 20%;
+	left: 7%;
+}
+.contactBlock{
+	width: 200px;
+	height: 200px;
+}
+.contactButton{
+	height: 100%;
+	width: 100%;
+	font-size: 20px;
+}
+#facebook{
+	position: absolute;
+	top:30%;
+	left: 10%;
+}
+#linkedin{
+	position: absolute;
+	top:30%;
+	left: 30%;
+}
+#email{
+	position: absolute;
+	top:30%;
+	left: 50%;
+}
+#wechat{
+	position: absolute;
+	top:30%;
+	left: 70%;
+}
+#wechatQR{
+	height: 100%;
+	width: 100%;
+}
+.workExperienceBlock{
+	display: none;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/img/nature.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	color: yellow;
+	position: absolute;
+	height: 200px;
+	width: 60%;
+}
+#work1{
+	top: 2%;
+	left: 0%;
+}
+#work2{
+	top: 32%;
+	right: 0%;
+}
+#work3{
+	top: 62%;
+	left: 0%;
+}
+#backButtonInWork{
+	position: absolute;
+	bottom: 20%;
+	right: 20%;
+}
+#backButtonProject{
+	position: absolute;
+	bottom: 10%;
+	left: 10%;
+}
+#projectNav{
+	position: absolute;
+	top: 30%;
+	opacity: 0.7;
+}
+.projectContentBlock{
+	display: none;
+	color: blue;
+	border-radius: 25px;
+	background: white;
+	opacity: 0.7;
+	position: absolute;
+	top: 10%;
+	bottom:10%;
+	left: 35%;
+	right: 0%;
+}
+.textCentered{
+	text-align: center;
+}
+#jQueryStudyNotes li{
+	font-size: 20px;
+}
+#monopoly li{
+	font-size: 20px;
+}
+#prac19_input{
+	width: 100%;
+}
+.full_size_img{
+	height: 100%;
+	width: 100%;
+}
+.full_size_btn{
+	height: 100%;
+	width: 100%;
+}
